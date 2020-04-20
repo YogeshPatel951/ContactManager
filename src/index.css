@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.icon-edit{
+  background-color: black;
+  float: right;
+}
+
+.icon-del{
+  background-color: red;
+  float: right;
+}
+
+
+
+.icon{
+  opacity: 0.5;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.icon-normal{
+  background-color: grey;
+}
+.icon:hover{
+  opacity: 1;
+}
+
+.icon:active{
+  opacity: 0.8;
 }
